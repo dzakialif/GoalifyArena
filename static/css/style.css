@@ -1,0 +1,32 @@
+/* Default styling (untuk desktop atau layar besar) */
+.logo_goalify {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+}
+
+/* Media query untuk layar tablet (max-width 768px) */
+@media screen and (max-width: 768px) {
+    .logo_goalify {
+        max-width: 100%; /* Pastikan gambar tidak melewati lebar container */
+        height: auto;
+    }
+
+    /* Contoh untuk teks */
+    body {
+        font-size: 16px; /* Sesuaikan ukuran font untuk layar lebih kecil */
+    }
+}
+
+/* Media query untuk layar smartphone (max-width 480px) */
+@media screen and (max-width: 480px) {
+    .logo_goalify {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Contoh untuk elemen lain */
+    body {
+        font-size: 14px;
+    }
+}
